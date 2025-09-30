@@ -4,7 +4,7 @@
 Hello World!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+When the camera is removed from the rest of the children of the cat the camera is now stuck in a singular spot while the player can still move the cat around.
 
 ## Open-Source Assets
 ### W1
