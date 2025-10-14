@@ -13,6 +13,8 @@ When the camera is removed from the rest of the children of the cat the camera i
 ### W3
 1. Our table is number #3 and we concluded that the return type would be a bool type and that would mean the parameters are setup as false, and so if the player misses the beat it stays false until the player does hit the beat, then it will become true.
 
+2. Components are like concerts, making classes the perfomance itself while member variables are the specific artists playing in the perfomacne which leaves the methods as the instruments being used to make the music for the performance.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
