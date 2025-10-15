@@ -185,7 +185,8 @@ public class CatW3 : MonoBehaviour
         //      of the ball's ballRenderer's color variable.
         // This means you'll need to use the '.' twice to get to the color :)
 
-        _spriteRenderer.color = ballRenderer.color;
+        _spriteRenderer.color = ball.GetComponent<SpriteRenderer>().color;
+
 
         // STEP 7 -------------------------------------------------------------
     }
