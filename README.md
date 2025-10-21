@@ -17,6 +17,9 @@ When the camera is removed from the rest of the children of the cat the camera i
 
 3. I believe the balls get really bright when they bounce too much because the rgb used to color them gets too high, and most likely gets so bright that it turns white since it is most likely something to do with saturation when the colors are changing.
 
+### W4
+1. Table 3: Line 5 declares a private void as a way to keep the code within it's own class and not have other classes change it. It also uses SerializeField to be able to view and change the class within Unity's inspector window. Line 22 is declaring the translation variable to equal the player's vertical input to be mutliplied by _movespeed and Time.deltaTime. Line 25 is declaring transform as a way to store the position of the cat while calling the translate method, and then the method is calling the translation variable to act only for the z axis.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
