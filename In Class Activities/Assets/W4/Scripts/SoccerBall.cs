@@ -36,7 +36,7 @@ public class SoccerBall : MonoBehaviour
 
         if (other.gameObject.tag == ("Goal"))
         {
-            Debug.Log("SoccerBall detected a collision with a trigger collider!");
+            MadeGoal();
         }
 
 
@@ -63,7 +63,12 @@ public class SoccerBall : MonoBehaviour
         // Call Play on _goalVFX.
 
         // STEP 4 -------------------------------------------------------------
-    
+    private void MadeGoal()
+    {
+        Debug.Log("SoccerBall detected a collision with a trigger collider!");
+
+        _goalVFX.Play();
+    }
     
     // STEP 3 -----------------------------------------------------------------
 
