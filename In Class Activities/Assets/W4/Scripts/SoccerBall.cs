@@ -37,6 +37,9 @@ public class SoccerBall : MonoBehaviour
         if (other.gameObject.tag == ("Goal"))
         {
             MadeGoal();
+
+            _points++;
+            _pointsText.text = "Points: "+  _points;
         }
 
 
@@ -87,6 +90,9 @@ public class SoccerBall : MonoBehaviour
     //      1. Create a new member variable to keep track of the points.
     //      2. Use your MadeGoal method to update the points and text.
     //
+
+    private int _points = 0;
+
     // STEP 5 -----------------------------------------------------------------
     
 
