@@ -37,9 +37,6 @@ public class SoccerBall : MonoBehaviour
         if (other.gameObject.tag == ("Goal"))
         {
             MadeGoal();
-
-            _points++;
-            _pointsText.text = "Points: "+  _points;
         }
 
 
@@ -71,6 +68,18 @@ public class SoccerBall : MonoBehaviour
         Debug.Log("SoccerBall detected a collision with a trigger collider!");
 
         _goalVFX.Play();
+        
+        _points++;
+        _pointsText.text = "Points: " + _points;
+
+        _timeSinceGoal = 0.0f;
+    }
+
+    private void Update()
+    {
+        _timeSinceGoal += Time.deltaTime;
+
+        _timeText.text = "Time: " + _timeSinceGoal.ToString("F2");
     }
     
     // STEP 3 -----------------------------------------------------------------
@@ -111,4 +120,7 @@ public class SoccerBall : MonoBehaviour
     //      2. Use the MadeGoal method to reset your
     //              time variable when the player makes a goal. 
     // STEP 6 -----------------------------------------------------------------
+
+private float _timeSinceGoal = 0.0f;
+
 }
