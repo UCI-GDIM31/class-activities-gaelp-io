@@ -25,6 +25,8 @@ When the camera is removed from the rest of the children of the cat the camera i
 ### W5
 1. I had a question about what positiveinfinity and negativeinfinity do in the vector script provided by Unity. I learned that they put a gameobject at the very edge of a plane and it makes the object not visible at all but still accessible. You wouldn't use this in your actual game but more so to find the distances between objects in your scene since the object with positive/negativeinfinity would be the farthest object in the scene.
 
+2. The member variable we want to define is the GameObject we want the deer to track because we should still be able to adjust it. The only method we want for this class is the Start() method which tells the deer to start moving as soon as the game begins running. This method should have the deer utilize the navmeshagent so that it will be moved to a specific target which in this case would be the mushroom.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
