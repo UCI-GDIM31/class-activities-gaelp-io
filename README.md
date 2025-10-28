@@ -22,6 +22,9 @@ When the camera is removed from the rest of the children of the cat the camera i
 2. The solution we came up with for the collider activity was giving the rigid body to both the cat and ball so that they could both interact with each other physically. Then, we gave the goal the ontrigger so that the ball could still go through the goal without colliding with the box, but at the same time it is being detected by the box collider.
 3. We had to fix the size of the capsule collider to make it so that the cat wouldn't be floating in the air, because before the collider was a huge sphere but we fixed it to more properly fit the shape of the cat.
 
+### W5
+1. I had a question about what positiveinfinity and negativeinfinity do in the vector script provided by Unity. I learned that they put a gameobject at the very edge of a plane and it makes the object not visible at all but still accessible. You wouldn't use this in your actual game but more so to find the distances between objects in your scene since the object with positive/negativeinfinity would be the farthest object in the scene.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
