@@ -31,6 +31,19 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
+        
+        float flipMultiplier = _flipWSControls ? -1f : 1f;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(Vector3.forward * _moveSpeed * Time.deltaTime * flipMultiplier);
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(Vector3.back * _moveSpeed * Time.deltaTime * flipMultiplier);
+        }
+
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
@@ -45,7 +58,6 @@ public class CatW5 : MonoBehaviour
 
         Vector3 translation = Vector3.zero;
         
-
 
         // STEP 1 & 2 ---------------------------------------------------------
 
