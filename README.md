@@ -27,6 +27,10 @@ When the camera is removed from the rest of the children of the cat the camera i
 
 2. The member variable we want to define is the GameObject we want the deer to track because we should still be able to adjust it. The only method we want for this class is the Start() method which tells the deer to start moving as soon as the game begins running. This method should have the deer utilize the navmeshagent and setdestination so that it will be moved to a specific target which in this case would be the mushroom.
 
+### W6
+1. The Category I was assigned was Unity Coding.
+[Week 6 Class Activity: Class Resource Guide](https://docs.google.com/document/d/12M9ND9VMCNH2GKoPRBsCeOYkleAXUMs-frSjHPjas9A/edit?tab=t.vdnl7cv1xpid)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
