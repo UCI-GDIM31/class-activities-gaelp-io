@@ -4,13 +4,22 @@ using UnityEngine;
 public class BatW6 : MonoBehaviour
 {
     [SerializeField] private float _speed;
-
+    
     private Transform _playerTransform;
+
+    /*private void Start()
+    {
+    GameObject cat = GameObject.Find("Cat");
+    if (cat != null)
+    {
+        EnableChase(cat.transform);
+    }
+    }*/
 
     public void EnableChase(Transform player)
     {
         enabled = true;
-        _playertransform = player;
+        _playerTransform = player;
     }
 
     public void DisableChase()
