@@ -31,6 +31,8 @@ When the camera is removed from the rest of the children of the cat the camera i
 1. The Category I was assigned was Unity Coding.
 [Week 6 Class Activity: Class Resource Guide](https://docs.google.com/document/d/12M9ND9VMCNH2GKoPRBsCeOYkleAXUMs-frSjHPjas9A/edit?tab=t.vdnl7cv1xpid)
 
+2. Plan: The member variables we need are movement speed and the cat's position through a transform variable. Then for the two methods we make the bat chase the player/cat by making a translate method to move the bat towards the player and then the other method should stop the bat from moving so we would transform the bat's position to it's own position which would stop the bat altogether.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
