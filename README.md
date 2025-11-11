@@ -33,6 +33,11 @@ When the camera is removed from the rest of the children of the cat the camera i
 
 2. Plan: The member variables we need are movement speed and the cat's position through a transform variable. Then for the two methods we make the bat chase the player/cat by making a translate method to move the bat towards the player and then the other method should stop the bat from moving so we would transform the bat's position to it's own position which would stop the bat altogether.
 
+### W7
+1. I planned the outline for the UI elements for our game. [Week 7 Activity 1: Designing a game engineering plan](https://docs.google.com/document/d/1yZqnc3GyaietJAPdXlV0iO8EaXxBU-2bWMjaaw1TMe4/edit?tab=t.0)
+
+2. The issue in Step 2 was the line of code was trying to use transform.position when you should be using transform.Translate with the movement float in order to have the muskrat move forwards and backwards.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
